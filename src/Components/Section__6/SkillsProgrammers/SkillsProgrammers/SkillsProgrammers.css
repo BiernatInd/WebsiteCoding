@@ -1,0 +1,103 @@
+.skillsprogrammers__container {
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5F3;
+}
+.skillsprogrammers__row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.skillsprogrammers__column__1 {
+    max-width: 50%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.skillsprogrammers__column__2 {
+    max-width: 50%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.h1__skillsprogrammers__1 {
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #5674E6;
+}
+.h2__skillsprogrammers__1 {
+    margin-top: 5%;
+    color: #5674E6;
+    font-size: 25px;
+    font-weight: 300;
+}
+.skillsprogrammers__img__1 {
+    border-radius: 15%;
+    position: relative;
+    right: 25%;
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .h2__skillsprogrammers__1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .skillsprogrammers__row {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+}
+ @media only screen and (max-width: 768px){ 
+    .skillsprogrammers__column__1 {
+        max-width: 100%;
+    }
+    .skillsprogrammers__column__2 {
+        max-width: 100%;
+    }
+    .h1__skillsprogrammers__1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .h2__skillsprogrammers__1 {
+        text-align: center;
+        font-size: 20;
+    }
+    .skillsprogrammers__img__1 {
+        right: auto;
+    }
+}
+ @media only screen and (max-width: 420px){ 
+    .h1__skillsprogrammers__1 {
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .h2__skillsprogrammers__1 {
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+    .skillsprogrammers__img__1 {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+    .h1__skillsprogrammers__1 {
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+}

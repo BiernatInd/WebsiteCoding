@@ -1,0 +1,124 @@
+.client__container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.client__row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.client__column__1 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.client__column__2 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.client__img__1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.h1__client__1 {
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #5674E6;
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+.h2__client__1 {
+    text-align: center;
+    margin-top: 5%;
+    color: #5674E6;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    left: 5%;  
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .client__row {
+        margin-top: auto;
+    }
+    .h1__client__1 {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .h2__client__1 {
+        font-size: 18px;
+    }
+}
+ @media only screen and (max-width: 768px){ 
+    .client__column__1 {
+        max-width: 100%;
+    }
+    .client__column__2 {
+        max-width: 100%;
+    }
+}
+ @media only screen and (max-width: 420px){ 
+    .h1__client__1 {
+        font-size: 25px;
+    }
+    .client__column__1 {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .client__column__2 {
+        margin-bottom: 10%;
+    }
+    .h2__client__1 {
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+    .client__img__1 {
+        margin-bottom: 10%;
+    }
+}
+/*iPad*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .client__row {
+        margin-bottom: 20%;
+    }
+}
+/*iPad Pro*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .client__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+    .client__row {
+        margin-bottom: 10%;
+    }
+    .h2__client__1 {
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+}
+/* Surface Pro 7 */
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    .client__row {
+        margin-bottom: 10%;
+    }
+}

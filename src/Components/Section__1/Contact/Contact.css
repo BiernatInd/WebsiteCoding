@@ -1,0 +1,289 @@
+.heading__container {
+    background-color: #F5F5F3;
+  }
+  .form__container {
+          min-height: 80vh;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  }
+  .container__contact {
+      text-align: center;
+      position: relative;
+      top: 50px;
+      margin-bottom: 50px;
+      font-weight: 600;
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #5674E6;
+  }
+  .container{
+      width: 85%;
+      background: #5674E6;
+      border-radius: 6px;
+      padding: 20px 60px 30px 40px;
+      box-shadow: 0 5px 10px #5674E6;
+      margin-bottom: 4%;
+    }
+    .container .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .container .content .left-side{
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      position: relative;
+    }
+    .content .left-side::before{
+      content: '';
+      position: absolute;
+      height: 70%;
+      width: 2px;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: white;
+    }
+    .content .left-side .details{
+      margin: 14px;
+      text-align: center;
+    }
+    .content .left-side .details i{
+      font-size: 30px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .content .left-side .details .topic{
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .content .left-side .details .text-one,
+    .content .left-side .details .text-two{
+      font-size: 14px;
+      color: #afafb6;
+    }
+    .container .content .right-side{
+      width: 75%;
+      margin-left: 75px;
+    }
+    .content .right-side .topic-text{
+      font-size: 23px;
+      font-weight: 500;
+      color: white;
+    }
+    .right-side .input-box{
+      height: 50px;
+      width: 100%;
+      margin: 12px 0;
+    }
+    .right-side .input-box input,
+    .right-side .input-box textarea{
+      height: 100%;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      background: white;
+      border-radius: 6px;
+      padding: 0 15px;
+      resize: none;
+    }
+    .right-side .message-box{
+      min-height: 110px;
+    }
+    .right-side .input-box textarea{
+      padding-top: 6px;
+    }
+    .right-side .button{
+      display: inline-block;
+      margin-top: 12px;
+    }
+    .right-side .button input[type="button"]{
+      color: #fff;
+      font-size: 18px;
+      outline: none;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background: white;
+      color: #5674E6;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .button input[type="button"]:hover{
+      background: white;
+    }
+    .address__h1__1 {
+        font-size: 25px;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .address__h1__2 {
+        font-size: 17px;
+        font-weight: 300;
+        color: white;
+    }
+    .phone__h1__1 {
+      font-size: 25px;
+      color: white;
+      font-weight: 500;
+      margin-bottom: 10px;
+  }
+  .phone__h1__2 {
+      font-size: 17px;
+      font-weight: 300;
+      color: white;
+  }
+  .email__h1__1 {
+      font-size: 25px;
+      color: white;
+      font-weight: 500;
+      margin-bottom: 10px;
+  }
+  .email__h1__2 {
+      font-size: 17px;
+      font-weight: 300;
+      color: white;
+  }
+  .btn3 {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #5674E6;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    text-align: center;
+    text-decoration: none #5674E6 solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    border: 2px solid #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn3:hover {
+    background-color: #5674E6;
+    color: #fff;
+    border: 2   px solid #fff;
+    transition: 500ms;
+  }
+    .button {
+      margin-right: 20px;
+    }
+    @media (max-width: 950px) {
+      .container{
+        width: 90%;
+        padding: 30px 40px 40px 35px ;
+      }
+      .container .content .right-side{
+       width: 75%;
+       margin-left: 55px;
+    }
+    .btn3 {
+        width: 100%;
+    }
+    }
+    @media (max-width: 820px) {
+      ::-webkit-input-placeholder {
+        font-size: 15px;
+      }
+      .container{
+        margin: 40px 0;
+        width: 85%;
+        height: 100%;
+      }
+      .address__h1__1 {
+        font-size: 18px;
+      }
+      .phone__h1__1 {
+        font-size: 18px;
+      }
+      .email__h1__1 {
+        font-size: 18px;
+      }
+      .address__h1__2 {
+        font-size: 12px;
+      }
+      .phone__h1__2 {
+        font-size: 12px;
+      }
+      .email__h1__2 {
+        font-size: 12px;
+      }
+      .button {
+        width: 100%;
+      }
+      .container .content{
+        flex-direction: column-reverse;
+      }
+     .container .content .left-side{
+       width: 100%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .container .content .left-side::before{
+       display: none;
+     }
+     .container .content .right-side{
+       width: 100%;
+       margin-left: 0;
+     }
+     .container__contact {
+      font-size: 30px;
+    }
+    }
+    @media (max-width: 400px) { 
+      ::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+    }
+  
+    @media (max-width: 320px) {
+      ::-webkit-input-placeholder {
+        font-size: 8px;
+      }
+      .container {
+        width: 85%;
+        height: 100%;
+      }
+      .email__h1__1 {
+        font-size: 14px;
+      }
+      .email__h1__2 {
+        font-size: 12px;
+      }
+      .phone__h1__1 {
+        font-size: 14px;
+      }
+      .phone__h1__2 {
+        font-size: 12px;
+      }
+      .address__h1__1 {
+        font-size: 14px;
+      }
+      .address__h1__2 {
+        font-size: 12px;
+      }
+      .btn3 {
+        font-size: 15px;
+          }
+          .container__contact {
+            font-size: 20px;
+          }
+    }

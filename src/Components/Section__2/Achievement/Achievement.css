@@ -1,0 +1,155 @@
+.achievement__container {
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5F3;
+}
+.achievement__row {
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.achievement__column__1 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.achievement__column__2 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.ol__achievement__1 {
+    position: relative;
+    left: 10%;
+}
+.h1__achievement__1 {
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #5674E6;
+    padding: 2rem;
+    position: relative;
+    left: 4%;
+}
+.li__achievement__1 {
+    color: #5674E6;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.achievement__img__1 {
+    border-radius: 15%;
+    position: relative;
+    right: 25%;
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .li__achievement__1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .achievement__row {
+        width: 100%;
+        margin-left: auto;
+    }
+    .h1__achievement__1 {
+        position: relative;
+        left: auto;
+    }
+    .li__achievement__1 {
+        position: relative;
+        right: auto;
+    }
+    .achievement__img__1 {
+        position: relative;
+        right: auto;
+        margin-bottom: 10%;
+    }
+    .ol__achievement__1 {
+        position: relative;
+        left: auto;
+    }
+}
+ @media only screen and (max-width: 768px){ 
+    .achievement__column__1 {
+        max-width: 100%;
+    }
+    .achievement__column__2 {
+        max-width: 100%;
+    }
+    .h1__achievement__1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .li__achievement__1 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+ @media only screen and (max-width: 420px){ 
+    .h1__achievement__1 {
+        font-size: 25px;
+    }
+    .li__achievement__1 {
+        font-size: 18px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+/*iPad*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .achievement__row {
+        margin-bottom: 10%;
+    }
+}
+/*iPad Pro*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .achievement__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+    .h1__achievement__1 {
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .achievement__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Mini */ 
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    .achievement__row {
+        margin-bottom: 10%;
+    }
+    .achievement__img__1 {
+        width: 90%;
+        position: relative;
+        top: 20px;
+    }
+}
+/* Surface Pro 7 */
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    .achievement__row {
+        margin-bottom: 10%;
+    }
+    .achievement__img__1 {
+        width: 90%;
+        position: relative;
+        top: 20px;
+    }
+}

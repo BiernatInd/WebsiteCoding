@@ -1,0 +1,13 @@
+.positioning__container {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.positioning__background {
+    background:url(../../../Images/30.png);
+    padding: 2.3rem;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-position-x: 100%;
+    backdrop-filter: #5674E6;
+}

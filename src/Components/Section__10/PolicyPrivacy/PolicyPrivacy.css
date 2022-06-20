@@ -1,0 +1,12 @@
+.policyprivacy__container {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.policyprivacy__background {
+    background:url(../../../Images/43.png);
+    padding: 2.3rem;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    backdrop-filter: #5674E6;
+}

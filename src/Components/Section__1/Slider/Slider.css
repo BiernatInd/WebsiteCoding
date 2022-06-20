@@ -1,0 +1,169 @@
+.slider__container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-bottom: 2%;
+}
+.slider__row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.slider__column__1 {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+}
+.slider__column__2 {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+}
+.slider__column__3 {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+}
+.slider__column__4 {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+}
+.slider__img {
+    width: 40%;
+}
+.h1__slider__1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #5674E6;
+    padding: 2rem;
+    margin-bottom: 1%;
+}
+.h2__slider__1 {
+    color: #5674E6;
+    font-size: 24px;
+}
+.myButton {
+    position: relative;
+    top: 20px;
+    display: inline;
+    padding: 5px 10px;
+    border: 2px solid #5674E6;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #5674E6;
+    margin-top: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.myButton:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    transform: scaleY(1);
+    transition-delay: 0.2s;
+}
+.myButton:hover:before {
+    transform: scaleY(0);
+}
+.myButton:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+.myButton:hover:after {
+    transform: scaleY(0);
+}
+.myButton span {
+    position: relative;
+    z-index: 3;
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .h1__slider__1 {
+        font-size: 38px;
+    }
+    .h2__slider__1 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .h1__slider__1 {
+        font-size: 32px;
+        padding: 1rem;
+    }
+    .h2__slider__1 {
+        font-size: 20px;
+        padding: 1rem;
+    }
+}
+ @media only screen and (max-width: 768px){ 
+    .slider__column__1 {
+        max-width: 100%;
+    }
+    .slider__column__2 {
+        max-width: 100%;
+    }
+    .slider__column__3 {
+        max-width: 100%;
+    }
+    .slider__column__4 {
+        max-width: 100%;
+    }
+    .h1__slider__1 {
+        font-size: 26px;
+        padding: 2rem;
+    }
+    .h2__slider__1 {
+        font-size: 22px;
+        padding: 1rem;
+    }
+    .myButton {
+        margin-bottom: 10%;
+    }
+    
+}

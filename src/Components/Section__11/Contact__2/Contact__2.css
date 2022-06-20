@@ -1,0 +1,20 @@
+.contact__2__container {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.contact__2__background {
+    background:url(../../../Images/44.png);
+    padding: 2.3rem;
+    background-repeat: no-repeat;
+    background-position: 0rem;
+    backdrop-filter: #5674E6;
+}
+.h1__contact__1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 2.3rem;
+    margin-top: 7.7%;
+    margin-bottom: 7.5%;
+}

@@ -1,0 +1,127 @@
+.teamwork__container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.teamwork__row {
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.teamwork__column__1 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.teamwork__column__2 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+.h1__teamwork__1 {
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #5674E6;
+    padding: 2rem;
+    position: relative;
+    right: 5.5%;
+}
+.h2__teamwork__1 {
+    color: #5674E6;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 5%;
+    position: relative;
+    right: 2%;
+}
+.teamwork__img__1 {
+    border-radius: 25%;
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .h2__teamwork__1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .teamwork__row {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+}
+ @media only screen and (max-width: 768px){ 
+    .teamwork__column__1 {
+        max-width: 100%;
+    }
+    .teamwork__column__2 {
+        max-width: 100%;
+    }
+    .h1__teamwork__1 {
+        font-size: 30px;
+        text-align: center;
+        right: auto;
+    }
+    .h2__teamwork__1 {
+        text-align: center;
+        font-size: 20;
+    }
+}
+ @media only screen and (max-width: 420px){ 
+    .h1__teamwork__1 {
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .h2__teamwork__1 {
+        font-size: 18px;
+    }
+}
+/*iPad*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .teamwork__row {
+        margin-bottom: 10%;
+    }
+}
+/*iPad Pro*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .teamwork__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+    .h1__teamwork__1 {
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .teamwork__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Mini */ 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .teamwork__row {
+        margin-bottom: 20%;
+    }
+}
+/* Surface Pro 7 */
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    .teamwork__row {
+        margin-bottom: 10%;
+    }
+}

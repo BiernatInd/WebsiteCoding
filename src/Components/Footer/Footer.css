@@ -1,0 +1,22 @@
+.footer__container {
+    background-color: #5674E6;
+    height: 100%;
+  }
+  .h1__footer__1 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    padding: 0.5rem;
+  }
+   @media only screen and (max-width: 768px){ 
+    .h1__footer__1 {
+      font-size: 16px;
+    }
+  }
+   @media only screen and (max-width: 420px){ 
+    .h1__footer__1 {
+      font-size: 14px;
+    }
+  }
+  

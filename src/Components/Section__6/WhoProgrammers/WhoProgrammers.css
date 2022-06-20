@@ -1,0 +1,140 @@
+.whoprogrammers__container {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F3;
+}
+.whoprogrammers__row {
+    margin-top: 2%;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whoprogrammers__column__1 {
+    max-width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 1rem;
+    z-index: 1;
+}
+.whoprogrammers__column__2 {
+    max-width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 1rem;
+    z-index: 1;
+}
+.whoprogrammers__column__3 {
+    max-width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 1rem;
+    z-index: 1;
+}
+.h1__whoprogrammers__1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #5674E6;
+    padding: 0.5rem;
+    margin-bottom: 1%;
+}
+.h2__whoprogrammers__1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5674E6;
+    padding: 0.5rem;
+    margin-bottom: 1%;
+}
+@media screen 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .h2__whoprogrammers__1 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1024px){ 
+    .whoprogrammer__row {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+}
+ @media only screen and (max-width: 768px){ 
+    .whoprogrammers__row {
+        width: 100%;
+    }
+    .whoprogrammers__column__1 {
+        max-width: 100%;
+    }
+    .whoprogrammers__column__2 {
+        max-width: 100%;
+    }
+    .whoprogrammers__column__3 {
+        max-width: 100%;
+    }
+    .h1__whoprogrammers__1 {
+        font-size: 30px;
+        text-align: center;
+        right: auto;
+    }
+    .h2__whoprogrammers__1 {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+ @media only screen and (max-width: 420px){ 
+    .h1__whoprogrammers__1 {
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .h2__whoprogrammers__1 {
+        font-size: 18px;
+    }
+}
+/*iPad*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .whoprogrammers__row {
+        margin-bottom: 10%;
+    }
+}
+/*iPad Pro*/
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .whoprogrammers__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: portrait) {
+    .h1__whoprogrammers__1 {
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .whoprogrammers__row {
+        margin-bottom: 10%;
+    }
+}
+/* iPad Mini */ 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .whoprogrammers__row {
+        margin-bottom: 20%;
+    }
+}
+/* Surface Pro 7 */
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    .whoprogrammers__row {
+        margin-bottom: 10%;
+    }
+}
