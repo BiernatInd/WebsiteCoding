@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <div className="Components">
-        <MessengerCustomerChat pageId="104569585509539" appId="541969750678597" language='pl_PL' themeColor={'#0a3069'} />
+        <MessengerCustomerChat pageId="104569585509539" appId="541969750678597" language='pl_PL' themeColor={'#5674E6;'} />
         <Navbar />
         <Switch>
           <Route exact path='/' component={Section1} />
